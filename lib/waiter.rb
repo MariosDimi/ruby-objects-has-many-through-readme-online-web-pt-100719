@@ -37,3 +37,13 @@ alex = Waiter.new("Alex", 5)
 sam.new_meal(pat, 50, 10)
 sam.new_meal(alex, 20, 3)
 pat.new_meal(sam, 30, 5)
+jason = Waiter.new("Jason", 4)
+lisa = Customer.new("Lisa", 24)
+tim = Customer.new("Tim", 35)
+terrance = Customer.new("Terrance", 27)
+ 
+terrance.new_meal(jason, 50, 3)
+lisa.new_meal(jason, 40, 10)
+tim.new_meal(jason, 45, 8)
+ 
+jason.best_tipper
