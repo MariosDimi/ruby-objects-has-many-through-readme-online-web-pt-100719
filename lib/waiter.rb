@@ -19,3 +19,8 @@ class Waiter
   end
   
 end
+
+sam = Customer.new("Sam", 27)
+pat = Waiter.new("Pat", 2)
+alex.new_meal(pat, 50, 10)
+sam
