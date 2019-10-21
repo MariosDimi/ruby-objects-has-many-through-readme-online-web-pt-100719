@@ -44,3 +44,4 @@ terrance.new_meal(andrew, 60, 8)
 terrance.new_meal(yomi, 30, 4)
  
 terrance.waiters
+terrance.waiters.last.name
